@@ -1,16 +1,33 @@
 ---
 title: Advancing forecasting research and practice
 author: Rob J Hyndman
+date: ISF 2019
 titlefontsize: 22pt
 toc: false
 output:
   binb::monash:
     colortheme: monashblue
+    includes:
+      in_header: preamble.tex
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE, dev.args=list(bg=grey(0.9), pointsize=11))
-```
+## International Journal of Forecasting
+
+\placefig{0}{1.35}{height=8.3cm}{IJFcover}
+
+\begin{textblock}{6.3}(6.3,1.5)\fontsize{11}{11.5}\sf
+The proposed audience for the journals to include practitioners, users and researchers in the social, behavioural, management and engineering sciences. The underlying philosophy was to be truly interdisciplinary and to bridge the gap between theory and practice. Areas identified as important included:\vspace*{-0.2cm}
+
+{\fontsize{9}{9}\sf\begin{itemize}\itemsep=0cm\parskip=0cm
+\item Evaluation of different methodologies
+\item New methods in judgement, econometrics and time series
+\item Technological forecasting
+\item Organisational aspects
+\item Impact of uncertainty on decision making
+\end{itemize}}\vspace*{-0.2cm}
+
+Papers would be selected depending on their importance, competence, replicability and their use of the method of multiple hypotheses.
+\end{textblock}
 
 ## International Journal of Forecasting
 
@@ -24,10 +41,26 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE, de
 \item Promoted forecasting research in energy, sports, elections, supply chain, finance and economics.
 \item Raised impact of forecasting research:
 \begin{itemize}
-  \item IF = 0.5 in 2005
+  \item IF = 0.5 in 2004
   \item IF = 2.6 in 2017
   \item IF = 2.2 in 2018
 \end{itemize}
+\end{itemize}
+\end{textblock}
+
+## International Journal of Forecasting
+
+\placefig{0}{1.35}{height=8.3cm}{IJFcover}
+
+\begin{textblock}{6.3}(6.3,1.5)\fontsize{13}{14}\sf
+\alert{Top-cited papers (500+ citations)}\vspace*{-0.3cm}\fontsize{10}{10}\sf
+\begin{itemize}\parskip=0cm\itemsep=2.5pt
+\item Zhang, Eddy Patuwo, Hu (1998) Forecasting with artificial neural networks: The state of the art. \alert{\scriptsize 2050}
+\item Hyndman \& Koehler (2006) Another look at measures of forecast accuracy. \alert{\scriptsize1246}
+\item Clemen (1989) Combining forecasts: A review and annotated bibliography . \alert{\scriptsize1117}
+\item Rowe \& Wright (1999) The Delphi technique as a forecasting tool: Issues and analysis. \alert{\scriptsize963}
+\item Makridakis \& Hibon (2000) The M3-competition: Results, conclusions and implications. \alert{\scriptsize688}
+\item De Gooijer \& Hyndman (2006) 25 years of time series forecasting. \alert{\scriptsize627}
 \end{itemize}
 \end{textblock}
 
@@ -42,7 +75,7 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE, de
 \item Judgemental forecasting, forecasting in organizations, forecasting support systems, technological forecasting.
 \item Multivariate methods.
 \item High-frequency time series.
-\item Collaboration with machine learning community
+\item Collaboration with machine learning community.
 \item Forecast evaluations --- scoring rules, link between estimation and evaluation, cross-validation.
 \end{itemize}
 \end{textblock}
